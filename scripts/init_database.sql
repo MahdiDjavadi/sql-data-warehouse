@@ -20,7 +20,6 @@ Warning:
 USE master;
 GO
 
-
 -- drop the data warehouse database if it already exists
 IF EXISTS (SELECT * FROM sys.databases WHERE name = 'data_warehouse')
 BEGIN
