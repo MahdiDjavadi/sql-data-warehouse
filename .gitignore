@@ -1,12 +1,5 @@
-# Ignore docs folder related to draw.io
-# like *.bkp
-
 # please check if docs are forbidden from gitignore, if not, add it to the list
 # Byte-compiled / cache files
-__pycache__/
-
-# Environment and secrets
-.env
 
 # OS / IDE junk
 .DS_Store
@@ -14,6 +7,25 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Data and logs
+# Ignore local configuration files
+*.env
+
+# Ignore SQL Server-related files
+*.mdf
+*.ldf
+*.ndf
+
+# Ignore temporary or backup files
 *.log
+*.bak
+*.tmp
 docs/*.bkp
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore exported data or diagrams (if applicable)
+*.csv
+*.png
+*.pdf
