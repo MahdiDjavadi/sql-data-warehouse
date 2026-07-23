@@ -1,4 +1,10 @@
+/* 
+    scripts/init_bronze_tables.sql
 
+    Create bronze tables for the data warehouse
+    table names are prefixed with bronze to indicate that they are raw data tables
+
+*/
 USE data_warehouse;
 GO
 
