@@ -1,3 +1,19 @@
+/*
+
+		Purpose of this script is to load the bronze layer tables from the source csv files.
+	It performs the following steps:
+		1. Truncate the bronze layer tables
+		2. Load the data from the source csv files into the bronze layer tables using bulk insert.
+
+	Parameters:
+		None
+	This stored procedure does not take any parameters.
+
+	Usage:
+		To execute this stored procedure, use the following command:
+		EXEC [bronze].[load_bronze];
+
+*/
 USE [data_warehouse]
 GO
 
